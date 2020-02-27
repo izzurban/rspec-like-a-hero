@@ -1,0 +1,23 @@
+1- crie um model chamado weapon com os seguintes atributos:
+
+-name
+-description
+-power_base
+    pontos de poder quando a arma está no level 1, ex: 3000
+-power_step
+    pontos de poder que aumentam a cada level, ex 100
+-level
+    level atual da arma (começando em 1)
+
+2- crie os seguintes métodos no model
+
+-current_power
+    esse metodo demonstra o poder atual da arma
+    (power_base+((level-1)*power_step))
+-title
+    esse metodo mostra o titulo da arma no seguinte formato:
+    "nome_da_arma #level_da_arma""
+    ex: "excalibur #3"
+
+
+3- Realize os testes dos metodos usando ffaker e factoryBot
